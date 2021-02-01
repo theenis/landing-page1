@@ -1,0 +1,334 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  font-family: "Limelight", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+.well {
+  position: relative;
+  overflow: hidden;
+  transition: 1s cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.top {
+  font-size: 80%;
+  color: hsla(0, 0%, 100%, 0.25);
+  position: relative;
+  cursor: pointer;
+}
+
+.section-1 .slide-in-demo {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  font-size: 4em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mainpage {
+  background-image: url("../images/photography1.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#galmenu {
+  background-image: url("../images/photography2.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#galone {
+  background-image: url("../images/photography3.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#galtwo {
+  background-image: url("../images/photography4.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#galthree {
+  background-image: url("../images/photography5.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#galfour {
+  background-image: url("../images/photography6.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#galfive {
+  background-image: url("../images/photography7.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#galsix {
+  background-image: url("../images/photography8.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#pageabout {
+  background-image: url("../images/photography9.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#pagecontact {
+  background-image: url("../images/photography_contact.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#mainpage {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+#maincont {
+  width: 50%;
+  margin-left: 50%;
+}
+#maintext {
+  padding-top: 30%;
+  font-size: 18px;
+}
+#maintitle {
+  margin-top: 10%;
+  font-size: 43px;
+}
+#galmenu {
+  width: auto;
+  height: 100vh;
+}
+#galtitle {
+  padding-top: 10%;
+  width: 50%;
+  margin-left: 50%;
+}
+#galone {
+  width: auto;
+  height: 100vh;
+}
+#galonecont {
+  padding-left: 5%;
+  padding-top: 10%;
+}
+#galoneh {
+  font-size: 25px;
+}
+#galonetitl {
+  font-size: 18px;
+}
+#galoneparap {
+  width: 35%;
+  padding-top: 5%;
+  font-size: 18px;
+}
+#galtwo {
+  width: auto;
+  height: 100vh;
+}
+#galtwocont {
+  padding-left: 5%;
+  padding-top: 10%;
+}
+#galtwoh {
+  font-size: 25px;
+}
+#galtwotitl {
+  font-size: 18px;
+}
+#galtwoparap {
+  width: 35%;
+  padding-top: 5%;
+  font-size: 18px;
+}
+
+#galthree {
+  width: auto;
+  height: 100vh;
+}
+#galthreecont {
+  padding-left: 5%;
+  padding-top: 10%;
+}
+#galtrheeh {
+  font-size: 25px;
+}
+#galthreetitl {
+  font-size: 18px;
+}
+#galthreeparap {
+  width: 35%;
+  padding-top: 5%;
+  font-size: 18px;
+}
+
+#galfour {
+  width: auto;
+  height: 100vh;
+}
+#galfourcont {
+  width: 50%;
+  float: right;
+  padding-left: 5%;
+  padding-top: 10%;
+}
+#galfourh {
+  font-size: 25px;
+}
+#galfourtitl {
+  font-size: 18px;
+}
+#galfourparap {
+  width: 80%;
+  padding-top: 5%;
+  font-size: 18px;
+  text-align: right;
+}
+
+#galfive {
+  width: auto;
+  height: 100vh;
+}
+#galfivecont {
+  width: 50%;
+  float: right;
+  padding-left: 5%;
+  padding-top: 10%;
+}
+#galfiveh {
+  font-size: 25px;
+}
+#galfivetitl {
+  font-size: 18px;
+}
+#galfiveparap {
+  width: 80%;
+  padding-top: 5%;
+  font-size: 18px;
+  text-align: right;
+}
+
+#galsix {
+  width: auto;
+  height: 100vh;
+}
+#galsixcont {
+  padding-left: 5%;
+  padding-top: 10%;
+}
+#galsixh {
+  font-size: 25px;
+}
+#galsixtitl {
+  font-size: 18px;
+}
+#galsixparap {
+  width: 35%;
+  padding-top: 5%;
+  font-size: 18px;
+}
+
+#pageabout {
+  width: auto;
+  height: 100vh;
+}
+#aboutcont {
+  padding-left: 5%;
+  padding-top: 10%;
+}
+#abouth {
+  font-size: 25px;
+}
+#aboutphot {
+  display: flex;
+}
+#aboutdesi {
+  display: flex;
+}
+#tit {
+  margin-left: 36px;
+}
+#titt {
+  margin-left: 100px;
+}
+#aboutdesc {
+  font-size: 25px;
+}
+#aboutparap {
+  padding-top: 5%;
+  font-size: 18px;
+  width: 50%;
+}
+#white {
+  width: 380px;
+}
+#black {
+  background-color: black;
+  width: 380px;
+}
+#pagecontact {
+  width: auto;
+  height: 100vh;
+}
+#contactcont {
+  padding-top: 10%;
+  width: auto;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+#contadress {
+  display: grid;
+  margin-top: 10%;
+}
+#contadress a {
+  padding-bottom: 2%;
+  width: 30%;
+  text-decoration: none;
+}
